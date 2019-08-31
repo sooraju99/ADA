@@ -52,7 +52,7 @@ void bubble_sort (int A[ ], int n , int k) {
 				}
 		}
 }
-		auto stop = high_resolution_clock::now();
+		auto stop = high_resolution_clock::now()
 		for(int i=0;i<n;i++)
 		{
 			cout<<A[i]<<",";
